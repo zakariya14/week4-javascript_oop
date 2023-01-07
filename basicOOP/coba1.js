@@ -47,3 +47,9 @@ const table = new TableData({
 
 const tampilData = document.getElementById("appS");
 table.render(tampilData);
+
+function cobaLagi(name) {
+  console.log(`Halo nama saya ${name}`);
+}
+
+export { table, TableData, cobaLagi, tampilData };
